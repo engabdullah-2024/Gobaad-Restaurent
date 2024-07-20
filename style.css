@@ -1,0 +1,231 @@
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px;
+    align-items: center;
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.header span{
+    color: black;
+}
+ .header h1  :hover{
+    text-decoration: solid;
+    color: white;
+   
+    width: 200px;
+    border-radius: 12px;
+
+ }
+   
+.header ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    font-size: 20px;
+}
+.header ul :hover{
+    text-decoration: solid;
+    color: black;
+text-decoration: underline;
+}
+.header i{
+    display: none;
+}
+.header:hover{
+    background-color: rgb(178, 168, 168);
+    border-bottom: 4px orange solid;
+}
+#qoraal:hover{
+    text-decoration: solid;
+    color: black;
+   
+
+}
+
+.signBtn{
+    background-color: white;
+    color: orange;
+    font-size: 20px;
+    border: none;
+    width: 100px;
+    border-radius: 12px;
+   
+
+}
+.signBtn:hover{
+    text-decoration: solid;
+    color: orange;
+    background-color: black;
+    border-bottom: 3px orange solid;
+}
+
+.diwaan{
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    border: 4px white solid;
+    width: 100px;
+    border-radius: 12px;
+
+}
+.diwaan:hover{
+    text-decoration: solid;
+    background-color: black;
+    border-bottom: 4px orange;
+    border: none;
+}
+.main{
+    margin-top: 100px;
+    padding: 20px 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.main-left h1{
+    font-size: 90px;
+    color: orange;
+}
+.main-left h1:hover{
+    text-decoration: solid;
+    color: black;
+   border-bottom: 4px orange solid;
+
+}
+.main-left p{
+    font-size: 30px;
+    
+}
+.main-left p:hover{
+    text-decoration: solid;
+    color: orange;
+   
+   border-left: 4px black solid;
+   
+}
+img{
+    width: 400px;
+    height: 400px;
+    border: none;
+
+    border-radius: 12px;
+}
+img:hover{
+  
+    border-radius: 12px;
+    border-bottom: 4px black solid;
+    border-top: 4px orange solid;
+    border-left: 4px orange solid;
+    border-right: 4px black solid;
+}
+.orders{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px;
+    text-align: center;
+    gap: 30px;
+  
+}
+
+.orders-left{
+    background-color: orange;
+    width: 300px;
+    height: 400px;
+    border-radius: 12px;
+    padding-top: 20px;
+   margin-top: 30px;
+}
+.sawir{
+    width: 200px;
+    height: 200px;
+   
+
+}
+.orders-left:hover{
+    text-decoration: solid;
+    color: orange;
+    background-color: black;
+}
+.footer{
+   display: flex;
+   justify-content: space-between;
+    background-color: orange;
+    height: 160px;
+    margin-top: 30px;
+    text-align: center;
+   padding: 20px 60px;
+    
+}
+.footer:hover{
+    text-decoration: solid;
+    color: orange;
+    background-color: black;
+    border-radius: 12px;
+}
+
+i{
+    font-size: 80px;
+    margin-left: 1000px;
+   
+    color: green;
+    
+}
+i:hover{
+
+}
+
+
+@media screen and (max-width: 600px){
+    .header{
+        padding: 20px;
+    }
+    .header ul{
+        display: none;
+
+    }
+    .header i{
+        display: none;
+        font-size: 30px;
+    }
+    .signBtn{
+        display: none;
+        
+    }
+    .diwaan{
+        display: none;
+    }
+    .main{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .main-left h1{
+        font-size: 40px;
+    }
+    .main-left p{
+        font-size: 20px;
+    }
+    .main img{
+        width: 300px;
+        height: 300px;
+    }
+    .orders{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .footer{
+        flex-direction: column;
+        padding: 20px;
+        height: 300px;
+    }
+    .footer i{
+     margin-left: 100px;
+    }
+}
